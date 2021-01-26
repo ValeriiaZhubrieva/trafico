@@ -27,6 +27,6 @@ $(function () {
           }
       });
       $('.menu__burger').on('click', function () {
-        $('.menu__list').slideToggle();
+        $('.menu__list, .header__btn').slideToggle();
     });
 });
